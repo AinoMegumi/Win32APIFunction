@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{4C9AA5FE-609C-4CF0-8C64-AC01343D973C}</ProjectGuid>
+    <ProjectGuid>{579E6AAE-18DC-4249-84CB-1051726419BB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Win32LetterConvert</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
@@ -72,27 +72,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>$(ProjectName)$(Configuration)</TargetName>
     <OutDir>$(SolutionDir)$(WindowsTargetPlatformVersion)\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(WindowsTargetPlatformVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)$(Configuration)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>$(ProjectName)$(Configuration)</TargetName>
     <OutDir>$(SolutionDir)$(WindowsTargetPlatformVersion)\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(WindowsTargetPlatformVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)$(Configuration)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>$(ProjectName)$(Configuration)</TargetName>
     <OutDir>$(SolutionDir)$(WindowsTargetPlatformVersion)\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(WindowsTargetPlatformVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)$(Configuration)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>$(ProjectName)$(Configuration)</TargetName>
     <OutDir>$(SolutionDir)$(WindowsTargetPlatformVersion)\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(WindowsTargetPlatformVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)$(Configuration)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
